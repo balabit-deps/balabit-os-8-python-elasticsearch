@@ -1,0 +1,100 @@
+python-elasticsearch (7.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Drop python2 support; Closes: #937725
+
+ -- Sandro Tosi <morph@debian.org>  Thu, 19 Dec 2019 13:03:56 -0500
+
+python-elasticsearch (7.1.0-1) UNRELEASED; urgency=medium
+
+  [ Emmanuel Arias ]
+  * Team upload
+  * New upstream version 7.1.0 (Closes: #944357)
+  * d/control: Bump Standard-Version to 4.4.1
+  * d/control: Bump debhelper-compat to 12
+  * Run wrap_and_sort script
+  * Fix HTML paths in doc-base control file
+
+  [ Ondřej Nový ]
+  * Use debhelper-compat instead of debian/compat.
+
+ -- Emmanuel Arias <emmanuelarias30@gmail.com>  Sat, 16 Nov 2019 23:38:44 -0300
+
+python-elasticsearch (7.0.1-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https protocol in Format field
+  * d/control: Remove ancient X-Python-Version field
+  * d/control: Remove ancient X-Python3-Version field
+  * Use 'python3 -m sphinx' instead of sphinx-build for building docs
+
+  [ Sébastien Delafond ]
+  * New upstream version 7.0.1 (Closes: #829487)
+
+ -- Sebastien Delafond <seb@debian.org>  Mon, 20 May 2019 09:38:30 +0200
+
+python-elasticsearch (5.4.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Ondřej Nový ]
+  * Fixed VCS URL (https)
+
+  [ Sophie Brun]
+  * Refresh patches after git-dpm to gbp pq conversion
+  * Drop debian/source/include-binaries: upstream signing key has been
+    converted to armored version
+  * New upstream release
+  * Use python3-sphinx to build documentation (python 2 will not be maintained
+    past 2020)
+  * Add autopkgtest
+  * Standards-Version is now 4.1.0: change Priority to optional
+  * Drop useless lintian-overrides
+
+ -- Sophie Brun <sophie@freexian.com>  Mon, 25 Sep 2017 15:08:56 +0200
+
+python-elasticsearch (1.6.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Fladischer <fladi@debian.org>  Thu, 18 Jun 2015 16:52:40 +0200
+
+python-elasticsearch (1.5.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Change my email address to fladi@debian.org.
+  * Update years in d/copyright.
+
+ -- Michael Fladischer <fladi@debian.org>  Tue, 26 May 2015 15:08:33 +0200
+
+python-elasticsearch (1.4.0-2) unstable; urgency=medium
+
+  [ Michael Fladischer ]
+  * Change project URL to point to correct upstream repository for
+    uscan.
+  * Use the same sphinx cofiguration as for official online
+    documentation.
+
+  [ Thomas Goirand ]
+  * Team upload.
+  * Uploading to unstable.
+
+ -- Thomas Goirand <zigo@debian.org>  Tue, 28 Apr 2015 13:02:36 +0000
+
+python-elasticsearch (1.4.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Uploading to experimental.
+  * Standards-Version: is now 3.9.6.
+  * Added python-sphinx-rtd-theme as Build-Depends-Indep.
+  * Moved some packages from Build-Depends to Build-Depends-Indep.
+
+ -- Thomas Goirand <zigo@debian.org>  Thu, 12 Feb 2015 13:42:27 +0000
+
+python-elasticsearch (1.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #760364).
+
+ -- Michael Fladischer <FladischerMichael@fladi.at>  Wed, 03 Sep 2014 13:17:06 +0200

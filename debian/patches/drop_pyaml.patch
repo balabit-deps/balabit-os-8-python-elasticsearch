@@ -1,0 +1,28 @@
+From: Michael Fladischer <fladi@debian.org>
+Date: Thu, 8 Oct 2015 11:59:18 -0700
+Subject: Remove pyaml from test requirements
+
+ pyaml only serves cosmetic purposes by pretty printing YAML and has not been
+ packaged yet for Debian.
+Last-Update: 2014-09-03
+Forwarded: not-needed
+
+Patch-Name: drop_pyaml.patch
+---
+ setup.py | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+diff --git a/setup.py b/setup.py
+index d8c3827..50da9ce 100644
+--- a/setup.py
++++ b/setup.py
+@@ -17,8 +17,7 @@ tests_require = [
+     "nose",
+     "coverage",
+     "mock",
+-    "pyaml",
+-    "nosexcover",
++    "nosexcover"
+ ]
+ 
+ # use external unittest for 2.6
